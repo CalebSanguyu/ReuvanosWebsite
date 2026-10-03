@@ -107,6 +107,10 @@ body {
     white-space: nowrap;
 }
 
+a:has(> .nav-logo){
+    text-decoration: none;
+}
+
 .header-right {
     position: relative;
     display: flex;
